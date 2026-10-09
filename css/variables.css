@@ -1,0 +1,29 @@
+:root{
+    /* Cores principais */
+    --color-background: #0d0b14;
+    --color-surface: #171421;
+    --color-text: #f5f2fa;
+
+    /* Identidade Visual */
+
+    --color-primary: #f20d83;
+    --color-secondary: #a78bfa;
+
+    /* Cores de Apoio */
+    --color-muted: #b8b2c5;
+    --color-border: #3a3445;
+
+    /*CORES DO GATINHO */
+    --cat-fur:#FFFAF5;
+    --cat-orange:#EDA05B;
+    --cat-outline:#9B85C8;
+    --cat-nose:#E775A8;
+}
+
+/* ajuste gatinho tema claro */
+:root [data-theme="light"] {
+    --cat-outline: #79648F;
+    --cat-face: #403737;
+    --cat-nose:#D85D93;
+    
+}
