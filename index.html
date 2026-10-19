@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>DebDev | Front-End Developer</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#hero" class="logo">
-<span class="logo-bracket">&lt;</span><span class="logo-deb">Deb</span><span class="logo-dev">Dev</span><span class="logo-bracket">&gt;</span>
-            </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Oxanium:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsividade.css">
+        
+        <title>DebDev | Front-End Developer</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#hero" class="logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-deb">Deb</span>
+                    <span class="logo-dev">Dev</span>
+                    <span class="logo-bracket">&gt;</span>
+
+                    <span class="logo-spark" aria-hidden="true"></span>
+                </a>
+        
+
             <ul class="nav-list">
                 <li><a href="#hero">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -23,538 +35,430 @@
                 <li><a href="#jornada">Jornada</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+
             <button class="theme-toggle" type="button" aria-label="Alternar tema">
                 ☀️
-
             </button>
+            </nav>
+        </header>
 
-        </nav>
-    </header>
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero-content">
-                <p class="hero-eyebrow">FRONT-END DEVELOPER</p>
-                <h1> Oi, eu sou a Deb.</h1>
-
-            <p class="hero-description">
-                Criando interfaces digitais bonitas, funcionais e 
-                com personalidade.
-            </p>
-            <div class="hero-actions">
-                <a href="#projetos" class="btn btn-primary">
-                    Ver projetos
-                </a>
-                <a href="#sobre" class="btn btn-secondary">
-                    Conhecer minha história.
-                </a>
-            </div>
-            </div>
-            <div class="hero-character" aria-hidden="true">
-                <div class="character-card">
-                    <div class="code-window-top">
-                    <span class="window-dot ssssdot-pink"></span>
-                    <span class="window-dot dot-purple"></span>
-                    <span class="window-dot dot-muted"></span>
-                    <span class="window-label">debdev.js</span>
-                    </div>
-                    <div class="code-lines">
-                    <p>
-                        <span class="code-keyword">const</span>
-                        nome = <span class="code-string">"Deb"</span>
-                    </p>
-
-                    <p>
-                        <span class="code-keyword">const</span>
-                        dupla = <span class="code-string">"🐈"</span>
-                    </p>
-
-                    <p class="code-comment">// criando com personalidade  ✦</p>
-
-                    </div>
+        <main>
             
-                
+            <section id="hero" class="hero">
+                <div class="hero-content">
+                    <p class="hero-eyebrow">FRONT-END DEVELOPER</p>
 
-                <div class="cat-illustration">
-                    
-                    <svg class="cat-svg" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg"
-                        aria-label="Gato branco com manchas alaranjadas">
-                <!-- Cauda: ficará separada para podermos animá-la -->
-                        <g class="cat-tail"> <path d="M 214 133 C 249 132 273 110 266 88 C 262 76 253 76 249   85" fill="none" stroke="var(--cat-outline)"
-                            -width="12" stroke-linecap="round"/>
-                        <path d="M 214 133 C 249 132 273 110 266 88 C 262 76 253 76 249 85"
-                            fill="none" stroke="var(--cat-fur)"
-                            stroke-width="9" stroke-linecap="round"/>
-                        <path d="M 266 88 C 262 76 253 76 249 85"
-                        fill="none" stroke="var(--cat-orange)"
-                        stroke-width="9" stroke-linecap="round"/></g>
-                        <!-- Patas traseiras -->
-                        <g class="cat-leg cat-leg-back">
-                        <path d="M 166 143 Q 170 162 167 182" fill="none" stroke="var(--cat-outline)"
-                            stroke-width="13" stroke-linecap="round"/>
-                        <path d="M 166 143 Q 170 162 167 182"
-                            fill="none" stroke="var(--cat-fur)"
-                            stroke-width="10" stroke-linecap="round"/>
-                        <ellipse cx="167" cy="183" rx="8" ry="4"
-                            fill="var(--cat-fur)"/></g>
+                    <h1> Oi, eu sou a Deb.</h1>
 
-                        <g class="cat-leg cat-leg-back cat-leg-back-second">
-                        <path d="M 193 143 Q 197 162 199 181"
-                            fill="none" stroke="var(--cat-outline)"
-                            stroke-width="13" stroke-linecap="round"/>
-                        <path d="M 193 143 Q 197 162 199 181"
-                            fill="none" stroke="var(--cat-fur)"
-                            stroke-width="10" stroke-linecap="round"/>
-                        <ellipse cx="199" cy="182" rx="8" ry="4"
-                            fill="var(--cat-fur)"/></g>
-                        <!-- Corpo -->
-                        <path
-                            d="M 91 116 C 105 101 131 98 158 104
-                                C 187 108 211 123 219 140
-                                C 225 154 212 164 190 165
-                                L 119 165
-                                C 99 164 87 151 87 136
-                                C 87 128 88 121 91 116 Z"
-                            fill="var(--cat-fur)"
-                            stroke="var(--cat-outline)"
-                            stroke-width="2"
-                            stroke-linejoin="round"/>
-                        <!-- Mancha do corpo -->
-                        <path
-                            d="M 164 107
-                                C 183 109 201 121 208 134
-                                C 197 142 183 141 172 131
-                                C 166 124 163 116 164 107 Z"
-                                fill="var(--cat-orange)"/>
-                                <!-- Patas dianteiras -->
-                        <g class="cat-leg cat-leg-front">
-                        <path d="M 109 145 Q 107 164 105 182"
-                            fill="none" stroke="var(--cat-outline)"
-                            stroke-width="13" stroke-linecap="round"/>
-                        <path d="M 109 145 Q 107 164 105 182"
-                            fill="none" stroke="var(--cat-fur)"
-                            stroke-width="10" stroke-linecap="round"/>
-                        <ellipse cx="105" cy="183" rx="8" ry="4"
-                            fill="var(--cat-fur)"/></g>
-                        <g class="cat-leg cat-leg-front cat-leg-front-second">
-                        <path d="M 134 147 Q 136 164 137 182"
-                            fill="none" stroke="var(--cat-outline)"
-                            stroke-width="13" stroke-linecap="round"/>
-                        <path d="M 134 147 Q 136 164 137 182"
-                            fill="none" stroke="var(--cat-fur)"
-                            stroke-width="10" stroke-linecap="round"/>
-                        <ellipse cx="137" cy="183" rx="8" ry="4"
-                            fill="var(--cat-fur)"/></g>
-                        <!-- Cabeça e orelhas -->
-                        <path d="M 77 98 L 66 61
-                            Q 65 55 71 59
-                            L 97 76
-                            Q 112 69 128 76
-                            L 146 60
-                            Q 152 56 151 64
-                            L 145 99
-                            C 153 112 147 129 133 139
-                            C 117 149 97 145 83 132
-                            C 71 121 70 108 77 98 Z"
-                            fill="var(--cat-fur)"
-                            stroke="var(--cat-outline)"
-                            stroke-width="2"
-                            stroke-linejoin="round"/>
-                            <!-- Interior da orelha -->
-                        <path d="M 71 62 L 91 76 L 78 84 Z"
-                                fill="var(--cat-orange)"/>
-                        <!-- Mancha na testa -->
-                        <path d="M 128 77
-                            L 146 62
-                            L 142 86
-                            Q 138 94 130 91 Z"
-                            fill="var(--cat-orange)"/>
-                        <!-- Olhos -->
-                        <ellipse cx="94" cy="106" rx="3" ry="4"
-                            fill="var(--cat-face)"/>
-                        <ellipse cx="126" cy="106" rx="3" ry="4"
-                            fill="var(--cat-face)"/>
-                        <!-- Nariz e boca -->
-                        <path d="M 106 115 Q 110 111 114 115 Q 110 119 106 115 Z"
-                            fill="var(--cat-nose)"/>
-                        <path d="M 110 118 Q 106 124 101 120 M 110 118 Q 114 124 119 120"
-                            fill="none" stroke="var(--cat-face)"
-                            stroke-width="1.5" stroke-linecap="round"/>
-                        <!-- Bigodes delicados -->
-                        <g fill="none" stroke="var(--cat-outline)"
-                            stroke-width="1.2" stroke-linecap="round">
-                        <path d="M 86 114 L 70 110 M 86 119 L 72 121"/>
-                        <path d="M 134 114 L 150 110 M 134 119 L 148 121"/></g>
-                    </svg>
+                    <p class="hero-description">
+                        Criando interfaces digitais bonitas, funcionais e
+                        com personalidade.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projetos" class="btn btn-primary">
+                            Ver projetos
+                        </a>
+
+                        <a href="#sobre" class="btn btn-secondary">
+                            Conhecer minha história.
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-character" aria-hidden="true">
+                    <div class="character-card">
+                        <div class="code-window-top">
+                            <span class="window-dot dot-pink"></span>
+                            <span class="window-dot dot-purple"></span>
+                            <span class="window-dot dot-muted"></span>
+                            <span class="window-label">debdev.js</span>
+                        </div>
+
+                        <div class="code-lines">
+                            <p>
+                                <span class="code-keyword">const</span>
+                                nome = <span class="code-string">"Deb"</span>
+                            </p>
+
+                            <p>
+                                <span class="code-keyword">const</span>
+                                foco = <span class="code-string">"Front-End"</span>
+                            </p>
+
+                            <p class="code-comment">
+                                // criando com personalidade  ✦
+                            </p>
+                        </div>
+
+                        <div class="cat-illustration"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sobre" class="about">
+                <div class="about-heading">
+                    <p class="section-eyebrow">
+                        A HISTÓRIA POR TRÁS DO DEBDEV
+                    </p>
+
+                    <h2>
+                        Minha curiosidade veio
+                        <span>antes do código.</span>
+                    </h2>
+                </div>
+
+                <div class="about-content">
+                    <p>
+                        Aos 14 anos, eu era viciada no Tumblr. Mas o que eu mais
+                        gostava não era só postar: era personalizar os perfis.
+                        Com tutoriais do YouTube, aprendi a mudar temas, cores
+                        e backgrounds. Depois, fiz isso no perfil das minhas
+                        irmãs e até no da minha mãe.
+                    </p>
+
+                    <p>
+                        Na época, eu não fazia ideia de como tudo funcionava
+                        por trás da tela. Eu só gostava de mexer, testar e ver
+                        o resultado mudar. Não era programadora; só estava
+                        seguindo uma curiosidade que ainda não sabia explicar.
+                    </p>
+
+                    <p>
+                        Anos depois, trabalhando com Visual Merchandising,
+                        desenvolvi ainda mais meu olhar para o visual,
+                        a composição e a experiência das pessoas.
+                        Quando comecei a explorar a área de Tecnologia,
+                        encontrei o Front-End.
+                    </p>
+
+                    <p>
+                        E foi estudando HTML e CSS que veio o estalo:
+                        aquela personalização no Tumblr já tinha me colocado
+                        em contato com código. Hoje, estou conectando esses
+                        pontos e aprendendo a transformar ideias em interfaces
+                        bonitas, funcionais e fáceis de usar.
+                    </p>
+
+                    <div class="about-tags">
+                        <span>Curiosidade desde cedo</span>
+                        <span>Visual Merchandising</span>
+                        <span>Em construção no Front-End</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills-section">
+                <div class="skills-heading">
+                    <p class="section-eyebrow"> MEU KIT DE DESENVOLVIMENTO</p>
+
+                    <h2>O que estou <span> construindo.</span></h2>
+
+                    <p class="skills-intro">
+                        Conhecimentos que estou desenvolvendo para transformar
+                        ideias em interfaces digitais.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <p class="skill-status">FUNDAMENTOS</p>
+
+                        <h3>Estrutura da web</h3>
+
+                        <p>
+                            Aprendendo a estruturar páginas, organizar conteúdo
+                            e criar layouts que funcionem em diferentes telas.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsividade</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <p class="skill-status">MEU OLHAR VISUAL</p>
+
+                        <h3>Interfaces & experiência</h3>
+
+                        <p>
+                            Unindo meu interesse por composição visual à criação
+                            de interfaces claras, intuitivas e com personalidade.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>UI/UX</span>
+                            <span>Composição visual</span>
+                            <span>Usabilidade</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <p class="skill-status">EM DESENVOLVIMENTO</p>
+
+                        <h3>Lógica & ferramentas</h3>
+
+                        <p>
+                            Fortalecendo minha lógica de programação e aprendendo
+                            ferramentas importantes para desenvolver projetos.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projetos" class="projects-section">
+                <div class="projects-heading">
+                    <p class="section-eyebrow">O QUE ESTOU CRIANDO</p>
+
+                    <h2>
+                        Projetos que colocam
+                        <span> ideias em prática.</span>
+                    </h2>
+
+                    <p class="project-intro">
+                        Alguns projetos fazem parte do meu aprendizado e outros
+                        representam o que quero construir como desenvolvedora.
+                    </p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card project-featured">
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-status">EM DESTAQUE</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">PORTFÓLIO</p>
+
+                            <h3>DebDev</h3>
+
+                            <p>
+                                Meu próprio portfólio, criado para colocar em prática
+                                meus estudos de Front-End, explorar interfaces e
+                                construir uma identidade visual que tenha a minha cara.
+                            </p>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <a href="https://deborahrayanydr-ux.github.io/debdev-portfolio/" class="project-link"
+                            target="_blank" rel="noopener noreferrer">
+                                Ver projeto
+                            </a>
+
+                            <a href="https://github.com/deborahrayanydr-ux/debdev-portfolio" class="project-link project-link-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-status">EM CONSTRUÇÃO</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">FRONT-END</p>
+
+                            <h3>Projeto em breve</h3>
+
+                            <p>
+                                Um novo projeto para praticar JavaScript, lógica
+                                de programação e interação com a interface.
+                            </p>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Lógica</span>
+                            <span>Interação</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="project-link project-link-disabled">
+                                Em breve
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-status">IDEIA</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">EXPLORAÇÃO</p>
+
+                            <h3>Próximo projeto</h3>
+
+                            <p>
+                                Um espaço para novos experimentos, ideias e
+                                desafios que façam parte da minha evolução.
+                            </p>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>Front-End</span>
+                            <span>UI/UX</span>
+                            <span>Em breve</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="project-link project-link-disabled">
+                                Em breve
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        
+            <section id="jornada" class="journey-section">
+                <div class="journey-heading">
+                    <p class="section-eyebrow">EM CONSTANTE EVOLUÇÃO</p>
+
+                    <h2>Do visual ao <span>código.</span></h2>
+
+                    <p class="journey-intro">
+                        Cada experiência acrescenta algo à profissional que
+                        estou construindo. Esta é a minha trajetória até aqui.
+                    </p>
+                </div>
+
+                <div class="journey-timeline">
+                    <article class="journey-item">
+                        <span class="journey-number">01</span>
+
+                        <div class="journey-content">
+                            <p class="journey-stage">EXPERIÊNCIA PROFISSIONAL</p>
+                            <h3>Um olhar treinado para o visual</h3>
+
+                            <p>
+                                No Visual Merchandising, desenvolvi meu olhar para
+                                composição, organização e experiência das pessoas.
+                                Hoje, levo esse repertório para o universo das
+                                interfaces digitais.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="journey-item">
+                        <span class="journey-number">02</span>
+
+                        <div class="journey-content">
+                            <p class="journey-stage">PRIMEIROS PASSOS</p>
+                            <h3>Transformando curiosidade em código</h3>
+
+                            <p>
+                                Comecei a estudar HTML e CSS para entender como
+                                as páginas são estruturadas e como transformar
+                                ideias visuais em interfaces reais.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="journey-item">
+                        <span class="journey-number">03</span>
+
+                        <div class="journey-content">
+                            <p class="journey-stage">FORMAÇÃO EM ANDAMENTO</p>
+                            <h3>Construindo minha base em tecnologia</h3>
+
+                            <p>
+                                Na graduação em Análise e Desenvolvimento de
+                                Sistemas, estou ampliando meus conhecimentos
+                                e fortalecendo os fundamentos necessários para
+                                crescer na área.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="journey-item">
+                        <span class="journey-number">04</span>
+
+                        <div class="journey-content">
+                            <p class="journey-stage">NOVOS HORIZONTES</p>
+                            <h3>Explorando a inteligência artificial</h3>
+
+                            <p>
+                                Com a formação em IA Aplicada na UFABC, estou
+                                ampliando meu contato com outras possibilidades
+                                da tecnologia e conhecendo novas formas de
+                                resolver problemas.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contato" class="contact-section">
+                <div class="contact-content">
+                    <p class="section-eyebrow">VAMOS CONVERSAR?</p>
+
+                    <h2>
+                        Uma boa ideia começa com
+                        <span>uma conversa.</span>
+                    </h2>
+
+                    <p>
+                        Estou construindo minha carreira em Front-End
+                        e aberta a oportunidades de aprendizado e estágio.
+                    </p>
+
+                    <a href="mailto:deborahazevedo03@gmail.com" class="btn btn-primary">
+                        Entrar em contato
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="#hero" class="logo">
+                    <span class="logo-bracket">&lt;</span><span class="logo-deb">Deb</span><span class="logo-dev">Dev</span><span class="logo-bracket">&gt;</span>
+                </a>
+
+                <p class="footer-message">
+                    Transformando curiosidade em código.
+                </p>
+
+                <nav class="footer-nav" aria-label="Navegação do rodapé">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#jornada">Jornada</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+
+                <div class="footer-bottom">
+                    <p>© 2026 DebDev. Feito com curiosidade e código.</p>
+
+                    <a href="#hero" class="back-to-top">
+                        Voltar ao topo <span aria-hidden="true">↑</span>
+                    </a>
                 </div>
             </div>
-        </div>
-
-        </section>
-
-        
-        <section id="sobre" class="about">
-            <div class="about-heading">
-                <p class="section-eyebrow">A HISTÓRIA POR TRÁS DO DEBDEV</p>
-
-            <h2>
-            Minha curiosidade veio
-            <span>antes do código.</span>
-        </h2>
-    </div>
-
-    <div class="about-content">
-        <p>
-            Aos 14 anos, eu era viciada no Tumblr. Mas o que eu mais
-            gostava não era só postar: era personalizar os perfis.
-            Com tutoriais do YouTube, aprendi a mudar temas, cores
-            e backgrounds. Depois, fiz isso no perfil das minhas
-            irmãs e até no da minha mãe.
-        </p>
-
-        <p>
-            Na época, eu não fazia ideia de como tudo funcionava
-            por trás da tela. Eu só gostava de mexer, testar e ver
-            o resultado mudar. Não era programadora; só estava
-            seguindo uma curiosidade que ainda não sabia explicar.
-        </p>
-
-        <p>
-            Anos depois, trabalhando com Visual Merchandising,
-            desenvolvi ainda mais meu olhar para o visual,
-            a composição e a experiência das pessoas.
-            Quando comecei a explorar a área de Tecnologia,
-            encontrei o Front-End.
-        </p>
-
-        <p>
-            E foi estudando HTML e CSS que veio o estalo:
-            aquela personalização no Tumblr já tinha me colocado
-            em contato com código. Hoje, estou conectando esses
-            pontos e aprendendo a transformar ideias em interfaces
-            bonitas, funcionais e fáceis de usar.
-        </p>
-
-        <div class="about-tags">
-            <span>Curiosidade desde cedo</span>
-            <span>Visual Merchandising</span>
-            <span>Em construção no Front-End</span>
-        </div>
-    </div>
-</section>
-
-
-        </section>
-
-        <section id="skills" class="skills-section">
-            <div class="skills-heading">
-                <p class="section-eyebrow"> MEU KIT DE DESENVOLVIMENTO</p>
-                <h2>O que estou <span> construindo.</span></h2>
-
-                <p class="skills-intro">
-                    Conhecimentos que estou desenvolvendo para transformar ideias em inferfaces digitais.
-                </p>
-            </div>
-
-            <div class="skills-grid">
-                <article class="skill-card">
-                    <span class="skill-number">01</span>
-                    <p class="skill-status">FUNDAMENTOS</p>
-        
-                    <h3>Estrutura da web</h3>
-        
-                    <p>
-                        Aprendendo a estruturar páginas, organizar conteúdo
-                        e criar layouts que funcionem em diferentes telas.
-                    </p>
-        
-                    <div class="skill-tags">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>Responsividade</span>
-                    </div>
-                </article>
-        
-                <article class="skill-card">
-                    <span class="skill-number">02</span>
-                    <p class="skill-status">MEU OLHAR VISUAL</p>
-        
-                    <h3>Interfaces & experiência</h3>
-        
-                    <p>
-                        Unindo meu interesse por composição visual à criação
-                        de interfaces claras, intuitivas e com personalidade.
-                    </p>
-        
-                    <div class="skill-tags">
-                        <span>UI/UX</span>
-                        <span>Composição visual</span>
-                        <span>Usabilidade</span>
-                    </div>
-                </article>
-        
-                <article class="skill-card">
-                    <span class="skill-number">03</span>
-                    <p class="skill-status">EM DESENVOLVIMENTO</p>
-        
-                    <h3>Lógica & ferramentas</h3>
-        
-                    <p>
-                        Fortalecendo minha lógica de programação e aprendendo
-                        ferramentas importantes para desenvolver projetos.
-                    </p>
-        
-                    <div class="skill-tags">
-                        <span>JavaScript</span>
-                        <span>Git</span>
-                        <span>GitHub</span>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="projetos" class="projects-section">
-            <div class="projects-heading">
-                <p class="section-eyebrow">O QUE ESTOU CRIANDO</p>
-                <h2>
-                    Projetos que 
-                    <span> ideias em prática.</span>
-                </h2>
-                <p class="project-intro">
-                    Alguns projetos fazem parte do meu aprendizado e outros 
-                    representam o que quero construir como desenvolvedora.
-                </p>
-            </div>
-
-            <div class="project-grid">
-                <article class="project-card project-featured">
-                    <div class="project-top">
-                        <span class="project-number">01</span>
-                        <span class="project-status">EM DESTAQUE</span>
-                    </div>
-
-                    <div class="project-info">
-                        <p class="project-type">PORTFÓLIO</p>
-        
-                        <h3>DebDev</h3>
-        
-                        <p>
-                            Meu próprio portfólio, criado para colocar em prática
-                            meus estudos de Front-End, explorar interfaces e
-                            construir uma identidade visual que tenha a minha cara.
-                        </p>
-                    </div>
-        
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-        
-                    <div class="project-actions">
-                        <a href="#" class="project-link">
-                            Ver projeto
-                        </a>
-        
-                        <a href="#" class="project-link project-link-secondary">
-                            GitHub
-                        </a>
-                    </div>
-        
-                </article>
-        
-                <article class="project-card">
-        
-                    <div class="project-top">
-                        <span class="project-number">02</span>
-                        <span class="project-status">EM CONSTRUÇÃO</span>
-                    </div>
-        
-                    <div class="project-info">
-                        <p class="project-type">FRONT-END</p>
-        
-                        <h3>Projeto em breve</h3>
-        
-                        <p>
-                            Um novo projeto para praticar JavaScript, lógica
-                            de programação e interação com a interface.
-                        </p>
-                    </div>
-        
-                    <div class="project-tags">
-                        <span>JavaScript</span>
-                        <span>Lógica</span>
-                        <span>Interação</span>
-                    </div>
-        
-                    <div class="project-actions">
-                        <span class="project-link project-link-disabled">
-                            Em breve
-                        </span>
-                    </div>
-        
-                </article>
-        
-                <article class="project-card">
-        
-                    <div class="project-top">
-                        <span class="project-number">03</span>
-                        <span class="project-status">IDEIA</span>
-                    </div>
-        
-                    <div class="project-info">
-                        <p class="project-type">EXPLORAÇÃO</p>
-        
-                        <h3>Próximo projeto</h3>
-        
-                        <p>
-                            Um espaço para novos experimentos, ideias e
-                            desafios que façam parte da minha evolução.
-                        </p>
-                    </div>
-        
-                    <div class="project-tags">
-                        <span>Front-End</span>
-                        <span>UI/UX</span>
-                        <span>Em breve</span>
-                    </div>
-        
-                    <div class="project-actions">
-                        <span class="project-link project-link-disabled">
-                            Em breve
-                        </span>
-                    </div>
-        
-                </article>
-        
-            </div>
-        </section>
-            
-        <section id="jornada" class="journey-section">
-    <div class="journey-heading">
-        <p class="section-eyebrow">EM CONSTANTE EVOLUÇÃO</p>
-
-    
-        <h2>Do visual ao <span>código.</span></h2>
-
-
-        <p class="journey-intro">
-            Cada experiência acrescenta algo à profissional que
-            estou construindo. Esta é a minha trajetória até aqui.
-        </p>
-    </div>
-
-    <div class="journey-timeline">
-        <article class="journey-item">
-            <span class="journey-number">01</span>
-
-            <div class="journey-content">
-                <p class="journey-stage">EXPERIÊNCIA PROFISSIONAL</p>
-                <h3>Um olhar treinado para o visual</h3>
-
-                <p>
-                    No Visual Merchandising, desenvolvi meu olhar para
-                    composição, organização e experiência das pessoas.
-                    Hoje, levo esse repertório para o universo das
-                    interfaces digitais.
-                </p>
-            </div>
-        </article>
-
-        <article class="journey-item">
-            <span class="journey-number">02</span>
-
-            <div class="journey-content">
-                <p class="journey-stage">PRIMEIROS PASSOS</p>
-                <h3>Transformando curiosidade em código</h3>
-
-                <p>
-                    Comecei a estudar HTML e CSS para entender como
-                    as páginas são estruturadas e como transformar
-                    ideias visuais em interfaces reais.
-                </p>
-            </div>
-        </article>
-
-        <article class="journey-item">
-            <span class="journey-number">03</span>
-
-            <div class="journey-content">
-                <p class="journey-stage">FORMAÇÃO EM ANDAMENTO</p>
-                <h3>Construindo minha base em tecnologia</h3>
-
-                <p>
-                    Na graduação em Análise e Desenvolvimento de
-                    Sistemas, estou ampliando meus conhecimentos
-                    e fortalecendo os fundamentos necessários para
-                    crescer na área.
-                </p>
-            </div>
-        </article>
-
-        <article class="journey-item">
-            <span class="journey-number">04</span>
-
-            <div class="journey-content">
-                <p class="journey-stage">NOVOS HORIZONTES</p>
-                <h3>Explorando a inteligência artificial</h3>
-
-                <p>
-                    Com a formação em IA Aplicada na UFABC, estou
-                    ampliando meu contato com outras possibilidades
-                    da tecnologia e conhecendo novas formas de
-                    resolver problemas.
-                </p>
-            </div>
-        </article>
-    </div>
-</section>
-
-    <section id="contato" class="contact-section">
-    <div class="contact-content">
-        <p class="section-eyebrow">VAMOS CONVERSAR?</p>
-
-        <h2>
-            Uma boa ideia começa com
-            <span>uma conversa.</span>
-        </h2>
-
-        <p>
-            Estou construindo minha carreira em Front-End
-            e aberta a oportunidades de aprendizado e estágio.
-        </p>
-
-        <a href="mailto:deborahazevedo03@gmail.com" class="btn btn-primary">
-            Entrar em contato
-        </a>
-    </div>
-</section>
-    </main>
-        
-<footer class="footer">
-    <div class="footer-content">
-
-        <a href="#hero" class="logo">
-            <span class="logo-bracket">&lt;</span><span class="logo-deb">Deb</span><span class="logo-dev">Dev</span><span class="logo-bracket">&gt;</span>
-        </a>
-
-        <p class="footer-message">
-            Transformando curiosidade em código.
-        </p>
-
-        <nav class="footer-nav" aria-label="Navegação do rodapé">
-            <a href="#sobre">Sobre</a>
-            <a href="#skills">Skills</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#jornada">Jornada</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
-        <div class="footer-bottom">
-            <p>© 2026 DebDev. Feito com curiosidade e código.</p>
-            <a href="#hero" class="back-to-top">Voltar ao topo ↑</a>
-        </div>
-
-    </div>
-</footer>
-</body>
+        </footer>
+    </body>
 </html>

@@ -1,0 +1,224 @@
+
+/* ========================================
+   9.1. TABLET
+======================================== */
+
+@media (min-width: 561px) and (max-width: 850px) {
+
+    /* Habilidades */
+    .skills-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Sobre */
+    .about {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2rem;
+    }
+
+}
+
+
+/* ========================================
+   9.2. CELULAR
+======================================== */
+
+@media (max-width: 560px) {
+
+    /* Cabeçalho e navegação */
+    header {
+        padding: 1rem 5%;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .nav-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
+    .nav-list a {
+        font-size: 0.85rem;
+    }
+
+    .theme-toggle {
+        margin-left: auto;
+    }
+
+
+    /* Hero */
+    .hero {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2rem;
+        padding: 3rem 5%;
+    }
+
+    .hero-content,
+    .hero-character {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .hero-character {
+        display: flex;
+        justify-content: center;
+    }
+
+    .character-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+
+    /* Sobre */
+    .about {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2rem;
+        padding: 4rem 5%;
+    }
+
+    .about-heading,
+    .about-content {
+        min-width: 0;
+        width: 100%;
+    }
+
+
+    /* Habilidades */
+    .skills-section {
+        padding: 4rem 5%;
+    }
+
+    .skills-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1rem;
+    }
+
+    .skill-card {
+        min-width: 0;
+        padding: 1.4rem;
+    }
+
+    .skills-heading {
+        text-align: left;
+    }
+
+    .skills-intro {
+        margin-left: 0;
+    }
+
+
+    /* Projetos */
+    .projects-section {
+        padding: 4rem 5%;
+    }
+
+    .projects-heading {
+        text-align: left;
+    }
+
+    .project-intro {
+        margin-left: 0;
+    }
+
+    .project-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .project-card {
+        min-width: 0;
+        padding: 1.3rem;
+    }
+
+
+    /* Jornada */
+    .journey-section {
+        padding: 4rem 5%;
+    }
+
+    .journey-heading {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .journey-intro {
+        margin-left: 0;
+    }
+
+    .journey-item {
+        grid-template-columns: 40px minmax(0, 1fr);
+        gap: 0.8rem;
+    }
+
+    .journey-timeline::before {
+        left: 20px;
+    }
+
+    .journey-number {
+        width: 40px;
+    }
+
+    .journey-content {
+        min-width: 0;
+        padding: 1.1rem;
+        border-radius: 14px;
+    }
+
+    .journey-content h3 {
+        font-size: 1.15rem;
+    }
+
+
+    /* Contato */
+    .contact-section {
+        padding: 4rem 5%;
+    }
+
+    .contact-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-content h2 {
+        font-size: clamp(2rem, 8vw, 2.7rem);
+    }
+
+    .contact-content > p:not(.section-eyebrow) {
+        width: 100%;
+        margin: 0 auto 2rem;
+        text-align: center;
+    }
+
+    .contact-content .btn {
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+    /* Rodapé */
+    .footer {
+        padding: 2.5rem 5% 1.5rem;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
